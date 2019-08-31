@@ -18,8 +18,10 @@ end
 
 def assign_rooms(array)
 
+  room_assigner = []
+
   array.each_with_index do |room, index|
-    return "Hello, #{room}! You'll be assigned to room #{index}!"
+    room_assigner << "Hello, #{room}! You'll be assigned to room #{index}!"
   end
 
 end
