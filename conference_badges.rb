@@ -24,4 +24,6 @@ def assign_rooms(array)
     room_assigner << "Hello, #{room}! You'll be assigned to room #{index}!"
   end
 
+  room_assigner
+
 end
